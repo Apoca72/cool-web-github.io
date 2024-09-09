@@ -34,6 +34,4 @@
 * **University:** National University of Mongolia
 * **Dates:** 2022-present
 
-## Projects
-* **Project Name**
-  
+
