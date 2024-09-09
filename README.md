@@ -1,11 +1,26 @@
+# My CV
 
-<!DOCTYPE html>
-<html>
-<head>
-<title>Welcome to Internet Technology Fundamentals</title>
-</head>
-<body>
-<h1>Welcome to Laboratory 1</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</body>
-</html>
+**Name:** Temuulen Sugar
+**Email:** that.u.sir.name@gmail.com
+**Phone:** +976 88895949
+
+## Skills
+* Skill 1
+* Skill 2
+* Skill 3
+
+## Experience
+* **Company Name**
+  * **Position:** Assistant community manager
+  * **Dates:** June 2020 - June 2021
+  * **Description:** Brief description of your experience
+
+## Education
+* **Degree:** Bachelor
+* **University:** National University of Mongolia
+* **Dates:** 2022-present
+
+## Projects
+* **Project Name**
+  * **Description:** Brief description of the project
+  * **Technologies:** Technologies used
