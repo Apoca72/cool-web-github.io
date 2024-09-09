@@ -28,7 +28,7 @@
   * **Position:** Concession attendant
   * **Dates:** June 2024 - September 2024
   * **Description:** providing food and beverage services to fans during games, replenishing supplies, cleaning equipment, and ensuring the area is tidy, answering questions, making recommendations, and resolving any issues
-  * 
+    
 ## Education
 * **Degree:** Bachelor
 * **University:** National University of Mongolia
