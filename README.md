@@ -1,8 +1,17 @@
 # My CV
 
+## Main Info
 **Name:** Temuulen Sugar
 **Email:** that.u.sir.name@gmail.com
 **Phone:** +976 88895949
+**Hometown** Ulaanbaatar, Mongolia
+**Address** Khan-Uul district, 27A apartment, 8th floor, door 57, Ulaanbaatar, Mongolia
+
+##  My family
+**Dad** Sugar Namiyad
+**Mom** Enkhjargal Gonchig
+**Half Brother** Tuguldur Ulamundrakh
+**Half Sister** Uyanga Sugar
 
 ## Skills
 * Active listener
@@ -16,7 +25,7 @@
   * **Position:** Assistant community manager
   * **Dates:** June 2020 - June 2021
   * **Description:** creating a positive and supportive community, Contributing to the creation of engaging content, such as blog posts, articles, or social media updates, Tracking community metrics and analyzing user behavior to identify trends and opportunities for improvement.
-* **Vyral**
+* **Vyral PR agency**
   * **Position:** Assistant content manager
   * **Dates:** August 2022 - October 2022
   * **Description:** Assisting in the development of press releases, articles, blog posts, social media content, and other written materials, Assisting with media outreach, including pitching story ideas to journalists and managing media inquiries.
@@ -33,5 +42,4 @@
 * **Degree:** Bachelor
 * **University:** National University of Mongolia
 * **Dates:** 2022-present
-
 
