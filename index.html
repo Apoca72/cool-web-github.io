@@ -54,7 +54,56 @@
                 </tr>
             </table>
         </div>
+        <div id="assignments">
+            <h2>Assignments</h2>
+        
+            <!-- Assignment 1 -->
+            <div id="assignment1">
+                <h3>Palindrome Checker</h3>
+                <label for="palindromeInput">Enter a number:</label>
+                <input type="number" id="palindromeInput">
+                <button onclick="checkPalindrome()">Check</button>
+                <p id="palindromeResult"></p>
+            </div>
+        
+            <!-- Assignment 2 -->
+            <div id="assignment2">
+                <h3>Catch-Up Time</h3>
+                <label for="distanceInput">Enter distance (km):</label>
+                <input type="number" id="distanceInput" step="0.01">
+                <button onclick="calculateCatchUpTime()">Calculate</button>
+                <p id="catchUpResult"></p>
+            </div>
+        
+            <!-- Assignment 3 -->
+            <div id="assignment3">
+                <h3>Door Finder</h3>
+                <label for="doorInput">Enter door number:</label>
+                <input type="number" id="doorInput">
+                <button onclick="findDoorLocation()">Find</button>
+                <p id="doorResult"></p>
+            </div>
+        
+            <!-- Assignment 4 -->
+            <div id="assignment4">
+                <h3>GCD of Numbers</h3>
+                <label for="gcdInput">Enter 5 numbers (space-separated):</label>
+                <input type="text" id="gcdInput">
+                <button onclick="calculateGCD()">Calculate</button>
+                <p id="gcdResult"></p>
+            </div>
+        
+            <!-- Assignment 5 -->
+            <div id="assignment5">
+                <h3>Number Calculation Based on Time</h3>
+                <label for="timeInput">Enter a number:</label>
+                <input type="number" id="timeInput">
+                <button onclick="calculateByTime()">Calculate</button>
+                <p id="timeResult"></p>
+            </div>
+        </div>        
     </div>
 </div>
+    <script src="scripts.js"></script>
 </body>
 </html>
