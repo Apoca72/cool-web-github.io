@@ -1,4 +1,4 @@
-﻿// Assignment 1: Palindrome Checker
+﻿// Assignment 1
 function isPalindrome(num) {
     const sum = num.toString().split('').reduce((acc, digit) => acc + parseInt(digit), 0);
     const reversedSum = sum.toString().split('').reverse().join('');
@@ -16,14 +16,14 @@ function checkPalindrome() {
     }
 }
 
-// Assignment 2: Catch-Up Time
+// Assignment 2
 function catchUpTime(initialDistance) {
-    const wolfSpeed = 25; // km/h
-    const rabbitSpeed = 18; // km/h
-    const relativeSpeed = wolfSpeed - rabbitSpeed; // km/h
+    const wolfSpeed = 25; 
+    const rabbitSpeed = 18; 
+    const relativeSpeed = wolfSpeed - rabbitSpeed; 
 
     const timeInHours = initialDistance / relativeSpeed;
-    return timeInHours * 60; // convert hours to minutes
+    return timeInHours * 60; 
 }
 
 function calculateCatchUpTime() {
@@ -36,7 +36,7 @@ function calculateCatchUpTime() {
         document.getElementById('catchUpResult').textContent = 'Please enter a valid distance.';
     }
 }
-// Assignment 3: Door Finder
+// Assignment 3
 function findLocation(doorNumber) {
     const floors = 9;
     const entrances = 3;
@@ -63,8 +63,8 @@ function findDoorLocation() {
     }
 }
 
-// Assignment 4: GCD of Numbers
-function gcd(a, b) {
+// Assignment 4
+function gcf(a, b) {
     while (b !== 0) {
         const temp = b;
         b = a % b;
@@ -73,22 +73,23 @@ function gcd(a, b) {
     return a;
 }
 
-function gcdOfArray(arr) {
-    return arr.reduce((acc, num) => gcd(acc, num));
+function gcfOfArray(arr) {
+    return arr.reduce((acc, num) => gcf(acc, num));
 }
 
-function calculateGCD() {
-    const input = document.getElementById('gcdInput').value;
+function calculateGCF() {
+    const input = document.getElementById('gcfInput').value;
     const numbers = input.split(" ").map(Number);
     if (numbers.length === 5 && numbers.every(num => !isNaN(num))) {
-        const result = gcdOfArray(numbers);
-        document.getElementById('gcdResult').textContent = `GCD: ${result}`;
+        const result = gcfOfArray(numbers);
+        document.getElementById('gcfResult').textContent = `GCF: ${result}`;
     } else {
-        document.getElementById('gcdResult').textContent = 'Please enter exactly 5 valid numbers.';
+        document.getElementById('gcfResult').textContent = 'Please enter exactly 5 valid numbers.';
     }
 }
 
-// Assignment 5: Number Calculation Based on Time
+
+// Assignment 5
 function calculateBasedOnTime(inputNumber) {
     const currentHour = new Date().getHours();
     return currentHour < 12 ? Math.pow(inputNumber, 2) : Math.sqrt(inputNumber);
