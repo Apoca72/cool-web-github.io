@@ -86,12 +86,14 @@
         
             <!-- Assignment 4 -->
             <div id="assignment4">
-                <h3>GCF of Numbers</h3>
-                <label for="gcfInput">Enter 5 numbers (space-separated):</label>
-                <input type="text" id="gcfInput">
-                <button onclick="calculateGCF()">Calculate</button>
-                <p id="gcfResult"></p>
+                <h3>LCM of Numbers</h3>
+                <label for="lcmInput">Enter 5 numbers (space-separated):</label>
+                <input type="text" id="lcmInput" pattern="(\d+\s){4}\d+" title="Please enter exactly 5 numbers separated by spaces" class="validated-input">
+                <button onclick="calculateLCM()">Calculate</button>
+                <p id="lcmResult" aria-live="polite"></p>
+                <p id="lcmError" style="color: red;"></p>
             </div>
+            
         
             <!-- Assignment 5 -->
             <div id="assignment5">

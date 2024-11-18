@@ -64,7 +64,8 @@ function findDoorLocation() {
 }
 
 // Assignment 4
-function gcf(a, b) {
+// Function to calculate GCD (used in LCM calculation)
+function gcd(a, b) {
     while (b !== 0) {
         const temp = b;
         b = a % b;
@@ -73,20 +74,32 @@ function gcf(a, b) {
     return a;
 }
 
-function gcfOfArray(arr) {
-    return arr.reduce((acc, num) => gcf(acc, num));
+// Function to calculate LCM of two numbers
+function lcm(a, b) {
+    return Math.abs(a * b) / gcd(a, b);
 }
 
-function calculateGCF() {
-    const input = document.getElementById('gcfInput').value;
+// Function to calculate LCM of an array of numbers
+function lcmOfArray(arr) {
+    return arr.reduce((acc, num) => lcm(acc, num), 1); // Start with 1 as the initial value
+}
+
+// Function to calculate and display LCM
+function calculateLCM() {
+    const input = document.getElementById('lcmInput').value;
     const numbers = input.split(" ").map(Number);
+    
+    // Ensure exactly 5 valid numbers are entered
     if (numbers.length === 5 && numbers.every(num => !isNaN(num))) {
-        const result = gcfOfArray(numbers);
-        document.getElementById('gcfResult').textContent = `GCF: ${result}`;
+        const result = lcmOfArray(numbers);
+        document.getElementById('lcmResult').textContent = `LCM: ${result}`;
+        document.getElementById('lcmError').textContent = ""; // Clear any error message
     } else {
-        document.getElementById('gcfResult').textContent = 'Please enter exactly 5 valid numbers.';
+        document.getElementById('lcmResult').textContent = ""; // Clear result
+        document.getElementById('lcmError').textContent = 'Please enter exactly 5 valid numbers.';
     }
 }
+
 
 
 // Assignment 5
